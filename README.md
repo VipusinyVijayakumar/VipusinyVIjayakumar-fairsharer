@@ -3,7 +3,7 @@
 
 Daisy Portfolio 06
 
-This repository contains a Python implementation of the `fair_sharer` algorithm as part of the DAISY portfolio assignment.
+This repository contains a Python implementation of the `fair_sharer` algorithm as part of the DSAI portfolio (6) assignment.
 
 The project setup is documented in `project_setup.md`. Feel free to remove this document (and/or the link to this document) if you don't need it.
 
