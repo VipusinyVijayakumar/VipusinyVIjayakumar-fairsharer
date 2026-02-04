@@ -30,6 +30,9 @@ def fair_sharer(values, num_iterations, share=0.1):
 if __name__ == "__main__":
     result = fair_sharer([0, 1000, 800, 0], 1)
     print(result)
+    # output: [100. 800. 900.   0.]
 
     result = fair_sharer([0, 1000, 800, 0], 2)
     print(result)
+    #output: [100. 890. 720.  90.]
+    
