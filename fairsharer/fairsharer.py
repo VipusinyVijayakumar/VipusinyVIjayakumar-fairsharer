@@ -25,3 +25,11 @@ def fair_sharer(values, num_iterations, share=0.1):
         #new values for tge next time
         values = new_values
     return new_values
+
+
+if __name__ == "__main__":
+    result = fair_sharer([0, 1000, 800, 0], 1)
+    print(result)
+
+    result = fair_sharer([0, 1000, 800, 0], 2)
+    print(result)
