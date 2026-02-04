@@ -17,7 +17,7 @@ authors = [
     { name = "Vipusiny Vijayakumar", email = "vipusiny.vijayakumar@study.hs-duesseldorf.de" }
 ]
 
-dependencies = []
+dependencies = ["numpy"]
 
 [project.optional-dependencies]
 dev = [
