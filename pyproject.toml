@@ -1,0 +1,32 @@
+# pyproject.toml
+# Documentation:
+# https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fairsharer"
+version = "0.1.0"
+description = "Portfolio exercise: fair_sharer algorithm"
+readme = "README.md"
+requires-python = ">=3.8"
+
+authors = [
+    { name = "Vipusiny Vijayakumar", email = "vipusiny.vijayakumar@study.hs-duesseldorf.de" }
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff"
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
